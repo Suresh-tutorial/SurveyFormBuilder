@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% block content %}
+    <form action="">
+        <h1>I am in register</h1>
+        {% for name in Nae%}
+        <span>First Name: {{name}}</span><br>
+        <span>Last Name: {{name}}</span> <br>
+        {% endfor %}
+    </form>
+    {% endblock %}
+</body>
+</html> 
